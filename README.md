@@ -2,7 +2,7 @@
 
 <p align="center">
     <span>Frontend application for </span>
-    <a href="https://github.com/blockscout/blockscout/blob/master/README.md">Blockscout</a>
+    <a href="https://github.com/metacypher/explorer/blob/master/README.md">Blockscout</a>
     <span> blockchain explorer</span>
 </p>
 
