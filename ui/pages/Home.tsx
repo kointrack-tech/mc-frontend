@@ -20,7 +20,7 @@ const Home = () => {
       <Box
         w="100%"
         background={ config.UI.homepage.plate.background }
-        borderRadius="24px"
+        borderRadius="3px"
         padding={{ base: '24px', lg: '48px' }}
         minW={{ base: 'unset', lg: '900px' }}
         data-label="hero plate"
@@ -33,7 +33,7 @@ const Home = () => {
             fontWeight={ 600 }
             color={ config.UI.homepage.plate.textColor }
           >
-            { config.chain.name } explorer
+            { config.chain.name } scan
           </Heading>
           <Box display={{ base: 'none', lg: 'flex' }}>
             { config.features.account.isEnabled && <ProfileMenuDesktop isHomePage/> }
