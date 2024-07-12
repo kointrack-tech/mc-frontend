@@ -18,8 +18,8 @@ import getApiVersionUrl from './utils/getApiVersionUrl';
 
 const MAX_LINKS_COLUMNS = 4;
 
-const FRONT_VERSION_URL = `https://github.com/metacypher/frontend/tree/${ config.UI.footer.frontendVersion }`;
-const FRONT_COMMIT_URL = `https://github.com/metacypher/frontend/commit/${ config.UI.footer.frontendCommit }`;
+const FRONT_VERSION_URL = `https://github.com/storchain/frontend/tree/${ config.UI.footer.frontendVersion }`;
+const FRONT_COMMIT_URL = `https://github.com/storchain/frontend/commit/${ config.UI.footer.frontendCommit }`;
 
 const Footer = () => {
 
@@ -41,37 +41,37 @@ const Footer = () => {
       icon: 'social/telega' as const,
       iconSize: '20px',
       text: 'Telegram',
-      url: 'https://t.me/MetacypherAnnouncements',
+      url: 'https://t.me/storchain',
     },
     {
       icon: 'social/facebook_filled' as const,
       iconSize: '18px',
       text: 'Facebook',
-      url: 'https://www.facebook.com/metacypher.io',
+      url: 'https://www.facebook.com/Storchainofficial/',
     },
     {
       icon: 'social/tweet' as const,
       iconSize: '18px',
       text: 'Twitter',
-      url: 'https://twitter.com/metacypher_io',
+      url: 'https://x.com/storchain_io',
     },
     {
       icon: 'social/medium_filled' as const,
       iconSize: '24px',
       text: 'Medium',
-      url: 'https://metacypherofficial.medium.com/',
+      url: 'https://storchain.medium.com/',
     },
     {
       icon: 'social/discord' as const,
       iconSize: '20px',
       text: 'Instagram',
-      url: 'https://www.instagram.com/metacypherofficial/',
+      url: 'https://www.instagram.com/storchainofficial/',
     },
     {
       icon: 'donate' as const,
       iconSize: '20px',
       text: 'Donate',
-      url: 'https://github.com/sponsors/metacypher',
+      url: 'https://github.com/sponsors/storchain',
     },
   ];
 
@@ -118,9 +118,9 @@ const Footer = () => {
   const renderProjectInfo = React.useCallback((gridArea?: GridProps['gridArea']) => {
     return (
       <Box gridArea={ gridArea }>
-        <Link fontSize="xs" href="https://www.metacypher.io">Metacypher.io</Link>
+        <Link fontSize="xs" href="https://www.storchain.io">Storchain.io</Link>
         <Text mt={ 3 } fontSize="xs">
-        Metacypher scan is a tool for inspecting and analyzing Metacypher blockchain network. Blockchain explorer for Metacypher Network.
+        Storchain scan is a tool for inspecting and analyzing Storchain blockchain network. Blockchain explorer for Storchain Network.
         </Text>
         <VStack spacing={ 1 } mt={ 6 } alignItems="start">
           { apiVersionUrl && (

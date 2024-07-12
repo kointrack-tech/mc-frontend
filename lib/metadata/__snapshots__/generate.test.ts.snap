@@ -2,36 +2,36 @@
 
 exports[`generates correct metadata for: dynamic route 1`] = `
 {
-  "description": "View transaction 0x12345 on Metacypher (Metacypher) Explorer",
+  "description": "View transaction 0x12345 on Storchain (Storchain) Explorer",
   "opengraph": {
     "description": "",
     "imageUrl": "",
-    "title": "Metacypher transaction 0x12345 | Metacypher",
+    "title": "Storchain transaction 0x12345 | Storchain",
   },
-  "title": "Metacypher transaction 0x12345 | Metacypher",
+  "title": "Storchain transaction 0x12345 | Storchain",
 }
 `;
 
 exports[`generates correct metadata for: dynamic route with API data 1`] = `
 {
-  "description": "0x12345, balances and analytics on the Metacypher (Metacypher) Explorer",
+  "description": "0x12345, balances and analytics on the Storchain (Storchain) Explorer",
   "opengraph": {
     "description": "",
     "imageUrl": "",
-    "title": "Metacypher USDT token details | Metacypher",
+    "title": "Storchain USDT token details | Storchain",
   },
-  "title": "Metacypher USDT token details | Metacypher",
+  "title": "Storchain USDT token details | Storchain",
 }
 `;
 
 exports[`generates correct metadata for: static route 1`] = `
 {
-  "description": "Metacypherscan is the blockchain explorer for Metacypher Neural AI Blockchain.",
+  "description": "Storchainscan is the blockchain explorer for Storchain Neural AI Blockchain.",
   "opengraph": {
     "description": "",
     "imageUrl": "http://localhost:3000/static/og_placeholder.png",
-    "title": "Metacypher blocks | Metacypher",
+    "title": "Storchain blocks | Storchain",
   },
-  "title": "Metacypher blocks | Metacypher",
+  "title": "Storchain blocks | Storchain",
 }
 `;
