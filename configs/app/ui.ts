@@ -30,7 +30,7 @@ const hiddenLinks = (() => {
 
 // eslint-disable-next-line max-len
 const HOMEPAGE_PLATE_BACKGROUND_DEFAULT =
-  "radial-gradient(103.03% 103.03% at 0% 0%, rgb(255 0 0) 0%, #FF9800 100%),#FF5722;";
+  "radial-gradient(103.03% 103.03% at 0% 0%, rgb(3 102 189) 0%, #2afaeb 100%), #0e85c1;";
 
 const UI = Object.freeze({
   sidebar: {
